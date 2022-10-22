@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+  <center>
+            <a href="https://junyou919.github.io/home-page/">回首頁</a>
+ </center>
+  <div class="wrap">
+    <div class="header">header</div>
+      <div class="nav">nav</div>
+    <div class="content">
+      <div class="left">aside</div>
+      <div class="article">article<br><br><br> <br> <br><br><div class="section">section</div></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="footer">footer</div>
+  </div> 
+<style>
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.clearfix{
+  clear:both;
+}
+.wrap{
+  width: 800px;
+  height:600px;
+  margin: 0 auto;
+}
+.header,.footer{
+  height: 90px;
+  margin:5px;
+  background:orange;
+  font-size:20x;
+  padding:20x;
+}
+.nav{
+  height:45px;
+  margin:5px;
+  background:deeppink;
+  font-size:20px;
+}
+.left{
+  height: 400px;
+  width: 300px;
+  float:left;
+  margin:5px;
+  background:pink;
+  font-size:20px;
+}
+.article{
+  height: 400px;
+  width: 550px;
+  float:right;
+  margin:5px;
+  padding:5px;
+  background:deepskyblue;
+  font-size:20px;
+}
+.section{
+  background:yellow;
+  width: auto;
+  height: 100px;
+  margin:5px;
+  position: relative;
+  font-size:20px;
+  top: 165px;
+}
+.left{
+  width: 230px;
+}
+.center{
+  width: 430px;
+}
+.right{
+  width: 230px;
+}
+.footer{
+  height: 100px;
+  margin:5px;
+  background:darkseagreen;
+  font-size:20px;
+}
+</style>
+</body>
+
